@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid {
+    width: 800px;
+    height: auto;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    margin: 1rem;
+    border: 1px dashed lightgray;
+}
